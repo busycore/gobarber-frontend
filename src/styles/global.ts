@@ -6,6 +6,7 @@ export default createGlobalStyle`
   padding:0;
   box-sizing:border-box;
   outline:0;
+  font-family: 'Roboto Slab', serif;
 }
 
 body{
@@ -15,7 +16,6 @@ body{
 }
 
 body input button{
-  font-family: 'Roboto Slab', serif;
   font-size:16px;
 }
 

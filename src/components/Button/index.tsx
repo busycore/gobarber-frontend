@@ -1,12 +1,15 @@
 /* eslint-disable react/prop-types */
 import React, { ButtonHTMLAttributes } from 'react';
+import { boolean } from 'yup';
 import { Container } from './styles';
 
-type buttonProps = ButtonHTMLAttributes<HTMLButtonElement>;
+type buttonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  loading?: boolean;
+};
 
-const Button: React.FC<buttonProps> = ({ children, ...rest }) => (
+const Button: React.FC<buttonProps> = ({ children, loading, ...rest }) => (
   <Container type="button" {...rest}>
-    {children}
+    {loading ? 'Carregando...' : children}
   </Container>
 );
 export default Button;
