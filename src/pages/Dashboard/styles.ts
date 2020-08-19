@@ -63,10 +63,10 @@ export const Profile = styled.div`
 `;
 
 export const Content = styled.main`
-  max-width: 1120;
+  max-width: 1120px;
   margin: 64px auto;
-  margin-left: 320px;
-  margin-right: 320px;
+  margin-left: 200px;
+  margin-right: 200px;
   display: flex;
   align-items: center;
 `;
