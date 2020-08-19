@@ -70,7 +70,7 @@ const SignUp: React.FC = () => {
           <img src={logo} alt="logo" />
           <Form
             ref={formRef}
-            initialData={{ email: 'matheusvrgm@gmail.com' }}
+            initialData={{ email: '' }}
             onSubmit={handleSubmit}
           >
             <h1>Faça seu cadastro</h1>
