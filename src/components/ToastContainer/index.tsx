@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiAlertCircle, FiXCircle } from 'react-icons/fi';
+//import { FiAlertCircle, FiXCircle } from 'react-icons/fi';
 import { useTransition } from 'react-spring';
 import { Container } from './styles';
 import { IToastMessage } from '../../hooks/Toast';

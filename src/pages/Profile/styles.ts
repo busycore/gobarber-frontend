@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
-import SignupBackground from '../../assets/sign-up-background.png';
+//import SignupBackground from '../../assets/sign-up-background.png';
 
 export const Container = styled.div`
   flex-direction: column;

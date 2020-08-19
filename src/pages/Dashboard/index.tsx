@@ -1,12 +1,11 @@
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
-import DayPicker, { DayModifiers, DateUtils } from 'react-day-picker';
+import DayPicker, { DayModifiers } from 'react-day-picker';
 
 import { isToday, format, parseISO, isAfter } from 'date-fns';
 import ptBr from 'date-fns/locale/pt-BR';
 
 import 'react-day-picker/lib/style.css';
 import { FiPower, FiClock } from 'react-icons/fi';
-import { date } from 'yup';
 import { Link } from 'react-router-dom';
 import {
   Container,

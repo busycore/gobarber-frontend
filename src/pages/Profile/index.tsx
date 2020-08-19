@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/camelcase */
-import React, { useCallback, useRef, FormEvent, ChangeEvent } from 'react';
+import React, { useCallback, useRef, ChangeEvent } from 'react';
 import { FormHandles } from '@unform/core';
 import { FiArrowLeft, FiMail, FiLock, FiUser, FiCamera } from 'react-icons/fi';
 import { Form } from '@unform/web';

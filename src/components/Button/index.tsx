@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { ButtonHTMLAttributes } from 'react';
-import { boolean } from 'yup';
+
 import { Container } from './styles';
 
 type buttonProps = ButtonHTMLAttributes<HTMLButtonElement> & {

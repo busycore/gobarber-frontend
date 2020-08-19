@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/camelcase */
 import React, { useCallback, useRef } from 'react';
-import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
+import {  FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
-import { Link, useHistory, useLocation } from 'react-router-dom';
+import {  useHistory, useLocation } from 'react-router-dom';
 import { Container, Content, AnimationContainer, Background } from './styles';
 import logo from '../../assets/logo.svg';
 import Input from '../../components/Input';
